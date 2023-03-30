@@ -1,0 +1,151 @@
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Righteous', cursive; */
+
+:root{
+    --color-1 : #4f5d75;
+    --color-2 : #ef8354;
+    --color-3 : #2d3142;
+    --color-4 : #ffffff;
+    --color-5 : #Bfc0c0;
+    --color-r : #eaebeb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+h1::before{
+    content: '"';
+    color: var(--color-2);
+    left: 5px;
+}
+
+h1::after{
+    content: '"';
+    color: var(--color-2);
+    right: 5px;
+}
+
+#navBonApp{
+    background-color: var(--color-1);
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+
+#bonAppTitre{
+    text-transform: uppercase;
+    color: var(--color-4);
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    margin-left: 20%;
+    margin-top: 11%;
+}
+
+
+#elements{
+    color: white;
+    text-transform: uppercase;
+    margin-left: 20%;
+    font-family: 'Lato', sans-serif;
+    line-height: 40px;
+}
+
+#darkMode{
+    height: 20px;
+}
+
+#nosAbonnementsTitre {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+#tableauPrix{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.abonnements{
+    border: solid var(--color-r);
+    background-color: var(--color-1);
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: var(--color-4);
+    font-family: 'Lato', sans-serif;
+}
+
+.nbrParSemaine{
+    border: solid var(--color-r);
+    background-color: #ffffff;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: var(--color-3);
+    font-family: 'Lato', sans-serif;
+}
+
+.prix{
+    border: solid var(--color-r);
+    background-color: var(--color-1);
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: var(--color-4);
+    font-family: 'Lato', sans-serif;
+}
+
+#platsCarte{
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+main section article{
+    width: 70%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+main section article p{
+    font-family: 'Lato', sans-serif;
+}
+
+#blog{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#article1{
+    box-shadow: 1px 2px 35px 5px rgba(0,0,0,0.49);
+}
+
+#article2{
+    box-shadow: 1px 2px 35px 5px rgba(0,0,0,0.49);
+}
+
+#article3{
+    box-shadow: 1px 2px 35px 5px rgba(0,0,0,0.49);
+}
+
+#article4{
+    box-shadow: 1px 2px 35px 5px rgba(0,0,0,0.49);
+}
